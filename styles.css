@@ -1,9 +1,19 @@
+*{
+  margin: 0;
+  padding: 0;
+}
 .bg-custom {
     background-color: #fcfcf3;
   }
 
   .bg-custom1 {
     background-color: #fafaf7;
+  }
+  .bg-custom2{
+    background: #FFECDB;
+  }
+  .bg-custom3{
+    background: #F8F3D9;
   }
 
   /* @keyframes fadeInUp {
@@ -17,6 +27,9 @@
     }
   } */
   
+  .logo{
+    font-size: 80px;
+  }
 
   
 
@@ -39,4 +52,15 @@
   .hover-zoom {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
   }
+
+  .border-bottom-dotted {
+    border-bottom: 2px dotted ;
+  }
+
+  .brown{
+    background-color: #443627;
+    color: #F8F3D9;
+  }
+
+  
   
