@@ -1,6 +1,7 @@
 *{
   margin: 0;
   padding: 0;
+  /* color: #443627; */
 }
 .bg-custom {
     background-color: #fcfcf3;
@@ -13,19 +14,10 @@
     background: #FFECDB;
   }
   .bg-custom3{
-    background: #F8F3D9;
+    background: #f0e7b8;
   }
 
-  /* @keyframes fadeInUp {
-    from {
-      opacity: 0;
-      transform: translateY(20px);
-    }
-    to {
-      opacity: 1;
-      transform: translateY(0);
-    }
-  } */
+ 
   
   .logo{
     font-size: 80px;
@@ -50,7 +42,7 @@
   }
 
   .hover-zoom {
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transition: transform 0.3s ease, box-shadow 0.8s ease;
   }
 
   .border-bottom-dotted {
@@ -59,7 +51,13 @@
 
   .brown{
     background-color: #443627;
-    color: #F8F3D9;
+    /* color: #F8F3D9; */
+  }
+  .loginBrown{
+    background-color: #30261b;
+  }
+  .login{
+    background-color: #1a140d;
   }
 
   
